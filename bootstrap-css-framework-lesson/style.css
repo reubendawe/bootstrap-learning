@@ -1,0 +1,18 @@
+:root {
+    --background-black: #000000;
+    --color-white: #ffffff;
+    --card-bg: #1ed5b6;
+}
+
+body {
+    background-color: var(--background-black);
+    color: var(--color-white);
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background-color: var(--card-bg);
+}
