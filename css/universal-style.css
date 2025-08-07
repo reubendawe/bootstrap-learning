@@ -6,9 +6,13 @@
 
 body {
     background-color: var(--black);
-    color: var(--white);
+    color: var(--black);
 }
 
 .container {
     background-color: var(--cyan);
+}
+
+.text-white {
+    color: var(--white);
 }
