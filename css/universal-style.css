@@ -1,7 +1,7 @@
 :root {
     --black: #000000;
     --white: #ffffff;
-    --cyan: cyan;
+    --grey: grey;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: var(--cyan);
+    background-color: var(--grey);
 }
 
 .text-white {
