@@ -1,6 +1,8 @@
 :root {
     --background-black: #000000;
-    --background-grey: #505050;
+    --background-grey: hsl(0, 0%, 31%);
+    --background-blue: rgb(0, 68, 255);
+    --background-red: rgb(240, 51, 51);
     --color-white: #ffffff;
     --card-bg: #1ed5b6;
 }
@@ -20,4 +22,14 @@ h1 {
 
 .card {
     background-color: var(--card-bg);
+}
+
+.bg-primary {
+    background-color: var(--background-blue);
+    height: 10rem;
+}
+
+.bg-secondary {
+    background-color: var(--background-red);
+    height: 10rem;
 }
