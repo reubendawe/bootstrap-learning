@@ -1,5 +1,6 @@
 :root {
     --background-black: #000000;
+    --background-grey: #f8f8f8;
     --color-white: #ffffff;
     --card-bg: #1ed5b6;
 }
@@ -7,6 +8,10 @@
 body {
     background-color: var(--background-black);
     color: var(--color-white);
+}
+
+.box {
+    background-color: var(--background-grey);
 }
 
 h1 {
